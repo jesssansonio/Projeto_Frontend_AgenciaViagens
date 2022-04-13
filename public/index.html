@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=>, initial-scale=1.0">
-    <title>Exercício Target</title>
-    <link href="./exercício.css" type="text/css" rel="stylesheet">
+    <title>Go! To Your Dreams</title>
+    <link href="/assets/css/App.css" type="text/css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="/Assets/img/icon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/img/icon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/884f8995fd.js" crossorigin="anonymous"></script>
 </head>
     <body> 
-            <header class="cabecalho">
-                <a href="#home"> 
-                    <img class="img-cabecalho" src="/Assets/img/Logo.png" alt="Logo Go! to your dreams">  
+        <header class="cabecalho">
+             <a href="#home"> 
+                    <img class="img-cabecalho" src="/assets/img/Logo.png" alt="Logo Go! To Your Dreams">  
                 </a>
     
 
@@ -28,41 +29,73 @@
                 </nav>
             </header>
             
-            <div class="conteudo background-img" id="home">
+            <div class="container-voo background-img" id="home">
                 <div class="main-voos"> 
                     <h1>
-                        Estamos felizes em ver você!
+                        Estamos felizes em ver você rumo ao seu sonho!
                     </h1>
                 
-                    <form class="box-voos">
-                        
+                    <div class="box-voos">
                         <fieldset>
-                                <legend><h3>Vôos</h3></legend>
-                            <div class="inputbox1">
-                                <label for="input-origem" class="label"></label>
-                                <input type="text" class="inputUsuario" placeholder="Digite sua origem" required>
-                                <label for="input-destino" class="label"></label>
-                                <input type="text" class="inputUsuario" placeholder="Digite seu destino" required>
-                            </div>
-                            
-                            <div class="inputbox2">
-                                <label for="ida" class="label">Ida:</label>
-                                <input type="date" class="inputUsuario" required>
-                                <label for="volta" class="label">Volta:</label>
-                                <input type="date" class="inputUsuario" required>
-                                
+                            <legend><h3>Vôos</h3></legend>
 
-                             </div>
-                             
-                                   
+                                <form action="">
+                                    <div class="input-group">
+                                        <div class="input-box">
+                                            <label for="input-origem" class="label"></label>
+                                            <input type="search" id="input-origem" class="inputUsuario" placeholder="Digite local de origem" required>
+
+                                        </div>
+
+                                        <div class="input-box">
+                                            <label for="input-destino" class="label"></label>
+                                            <input type="search" id="input-destino" class="inputUsuario" placeholder="Digite local de destino" required>
+                                    
+                                        </div>
+                                    
+                                        <div class="input-box">
+                                            <label for="ida" class="label">Ida:</label>
+                                            <input type="date" class="inputUsuario" required>
+
+                                        </div>
+
+                                        <div class="input-box">
+                                            <label for="volta" class="label">Volta:</label>
+                                            <input type="date" class="inputUsuario" required>
+
+                                        </div>
+
+                                    </div>  
+                                         <div class="container-passageiros">
+                                            
+                                                <div class="input-passageiros">
+                                                    <label for="qnt-passageiros" class="label"><i class="far fa-user"></i></label>
+                                                    <input type="number" id="qnt-passageiros" class="input-passageiro" required>
+                                              
+                                                </div>
+
+                                                
+
+                                            
+
+                                            
+                                            <div class="input-passageiros">
+                                                <input type="radio" id="input-data-indefinida" class="input-data-indefinida" pattern="[0-9] {2}">
+                                                <label for="input-data-indefinida" class="input-data-indefinida">Não tenho data de volta definida</label>
+                                            </div>
+
+                                        </div>
+                                
+                                </form>   
+                            
+                            </fieldset>
                         
-                        </fieldset>
-                    </form>
+                    </div>
                 </div>
             </div>
                     <section id="ofertas" class="main-ofertas">
                         <div class="ofertas">
-                            <img class="oferta1" src="/Assets/img/roma.jpg" alt="Imagem Turística de Roma">
+                            <img class="oferta1" src="/assets/img/roma.jpg" alt="Imagem Turística de Roma">
                             <div class="description">
                                 <h2>Roma</h2> 
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos debitis ea culpa ipsam impedit, dolores doloremque, dolore
@@ -75,7 +108,7 @@
 
 
                         <div class="ofertas">
-                            <img class="oferta2" src="/Assets/img/africa.jpg" alt="Imagem Turística da África">
+                            <img class="oferta2" src="/assets/img/africa.jpg" alt="Imagem Turística da África">
                             <div class="description">
                                 <h2>África</h2> 
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio itaque similique modi eos, exercitationem, ipsa voluptatum at
@@ -87,7 +120,7 @@
                         </div> 
                         
                         <div class="ofertas">
-                            <img class="oferta3" src="/Assets/img/colombia.jpg" alt="Imagem Turística da Colombia">
+                            <img class="oferta3" src="/assets/img/colombia.jpg" alt="Imagem Turística da Colombia">
                             <div class="description">
                                 <h2>Colômbia</h2> 
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio itaque similique modi eos, exercitationem, ipsa voluptatum at
@@ -101,15 +134,24 @@
                     </section>
                 
 
-            <div id="contato" class="main-contato">
+            <section id="contato" class="main-contato">
                 <div class="box-contato">
 
 
                 </div>
 
-            </div>
+            </section>
        
-        <footer class="footerTitle">Tcha-au!</footer>
+        <footer>
+                <div class="footerTitle">
+                    <h3>
+                        Tha-au!
+                    </h6>
+
+                </div>
+
+
+        </footer>
 
     </body>
     </html>

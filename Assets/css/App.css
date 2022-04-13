@@ -114,7 +114,7 @@ p {
 
 }
 
-.conteudo {
+.container-voo {
     padding: 0 auto;
     margin: 0;
     display: flex;
@@ -138,19 +138,24 @@ p {
     
     }
 
+.main-voos h1 {
+    padding-left: 2rem;
+    padding-top: 10rem;
 
+
+
+}
 
 .box-voos {
         
         background-color: #ffffff3f;
-        height: 300px;
-        width: 600px;
-        border-radius: 5px;
-        display: grid;
-        grid-template-columns: 50% 50%;
-        margin: 20px auto;
-        padding: 20px;
-        display: grid;
+        height: 30rem;
+        width: 60rem;
+        border-radius: 0.5rem;
+        margin: 1rem auto;
+        padding: 2rem 2.2rem;
+        
+        
         
         
         
@@ -162,47 +167,117 @@ fieldset {
     
     border: 0.1rem solid #025E73;
     border-radius: 0.8rem;
-    margin: 0.2rem;
-    height: 20rem;
+    padding: 0 auto;
+    height: 25rem;
     width: 55.5rem;
     display: flex;
     align-content: center;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
 
 }
 
 legend {
     padding: 1rem;
     text-align: center;
-
+    font-size: 2rem;
 
 }
 
-.inputbox1 {
+form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+
+}
+
+
+.input-passageiro {
+    outline: none;
+    width: 5.2rem;
+    border-radius: 0.8rem;
+    border: none;
+    padding: 0.8rem;
+    
+
+
+}
+.input-group {
     
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
+    justify-content: space-between;
+    margin: 0 2rem;
+    height: 8rem;
     
     
-   
-    
+       
 }
 
-.inputbox2 {
-    
+.container-passageiros {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
-    
-    
-   
-    
+    justify-content: row;
+    width: 100%;
+    padding-left: 2rem;
+    gap: 18rem;
+
+}
+
+.container-passageiros i {
+    display: flex;
+    align-items: center;
+    padding-top: 0.8rem;
+    padding-right: 0.5rem;
+
+
 }
 
 
+
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    
+
+}
+
+.input-box input {
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    
+
+}
+
+input:focus {
+    background-color: #025e73d2;
+    transition: 300ms ease-in-out;
+
+}
+
+.input-passageiros {
+    margin: 1.5rem 0.02rem;
+    display: flex;
+    
+
+
+}
+
+.input-data-indefinida {    
+    margin: 0.2rem;
+
+
+}
 .inputUsuario{
     height: 3rem;
     width: 20rem;
@@ -212,6 +287,7 @@ legend {
     border-radius: 0.8rem;
     border-bottom: 0.08rem solid #025e73cc;
     
+    
 }
 
 .inputUsuario::-webkit-input-placeholder {
@@ -219,14 +295,15 @@ legend {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-left: 0.1rem;
     font-size: 1.5rem;
-    
+    padding-left: 0.6rem;
+    font-style: italic;
 
 }
 
 .label {
-    padding: 1rem;
+    
     color: #025E73;
-    font-size: 2rem;
+    font-size: 1.6rem;
 
 }
 
@@ -266,12 +343,9 @@ legend {
     width: 90rem;
     margin: 0 auto;
     padding: 2px 20px;
-    height: 50rem;
     background-color: #F0EDE8;
     border-radius: 2rem;
-    display: flex;
-    flex-direction: column;
-
+    display: block;
 
 }
  
