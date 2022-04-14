@@ -147,7 +147,26 @@ p {
 
 
 }
+.main-voos {
+ width: 100rem;
 
+}
+.main-voos img{
+    width: 90rem;
+    
+}
+
+
+.img-selo {
+    height: 13rem;
+    width: 12rem;
+    display: flex;
+    float: left;
+    padding-left: 12rem;
+    
+    
+   
+}
 .box-voos {
         
         background-color: #ffffff3f;
@@ -382,13 +401,13 @@ input:focus {
 .main-ofertas .ofertas .description{
     text-align: center;
     visibility: hidden;
-    transition: 200ms ease-in-out;
+    transition: 100ms ease-in-out;
 
 }
 
 .main-ofertas .ofertas:hover .description {
     visibility: visible;
-    transition-delay: 300ms;
+    transition-delay: 400ms;
     cursor: pointer;
 
 
