@@ -140,8 +140,9 @@ p {
     }
 
 .main-voos h1 {
-    padding-left: 2rem;
-    padding-top: 10rem;
+    text-align: center;
+    font-size: 2.3rem;
+    color: #282d30;
 
 
 
@@ -150,11 +151,12 @@ p {
 .box-voos {
         
         background-color: #ffffff3f;
-        height: 30rem;
+        height: 33rem;
         width: 60rem;
         border-radius: 0.5rem;
         margin: 1rem auto;
-        padding: 2rem 2.2rem;        
+        padding: 2rem 2.2rem; 
+        margin-top: 5.5rem;       
 
 }
 
@@ -176,7 +178,10 @@ fieldset {
 legend {
     padding: 1rem;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.7rem;
+    color: #696452;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 
 }
 
@@ -223,7 +228,11 @@ form {
     justify-content: row;
     width: 100%;
     padding-left: 2rem;
-    gap: 7rem;
+    gap: 2.5rem;
+    
+    
+
+    
     
 
 }
@@ -312,7 +321,7 @@ input:focus {
     padding: 0 auto;
     border-radius: 8px;
     background: linear-gradient(308.6deg, #025E73 5.94%, #6D96A6 79.38%);
-    color: #bbb9b4;
+    color: #d4d2cb;
     font-size: 15px;
     font-family: 'DM Sans', sans-serif;
     box-shadow: #025e73d8 0.2rem 0.2rem 2rem 0px;
