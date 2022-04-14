@@ -318,7 +318,7 @@ input:focus {
     padding: 0 auto;
     border-radius: 8px;
     background: linear-gradient(308.6deg, #025E73 5.94%, #6D96A6 79.38%);
-    color: #F0EDE8;
+    color: #bbb9b4;
     font-size: 15px;
     font-family: 'DM Sans', sans-serif;
     box-shadow: #025e73d8 0.2rem 0.2rem 2rem 0px;
@@ -419,13 +419,24 @@ input:focus {
 }
 
 
+::-webkit-scrollbar {
+    width: 1rem;
 
 
+}
+
+
+::-webkit-scrollbar-thumb{
+    background-color: #bf0414;
+    border-radius: 0.5rem;
+
+
+}
 
 /*Rodape*/
 
 footer {
 
-    
+  
      
 }
