@@ -231,8 +231,7 @@ form {
     justify-content: space-between;
     margin: 0 2rem;
     height: 8rem;
-    
-    
+        
        
 }
 
@@ -246,11 +245,6 @@ form {
     padding-left: 2rem;
     gap: 2.5rem;
     
-    
-
-    
-    
-
 }
 
 .container-passageiros i {
@@ -361,6 +355,8 @@ input:focus {
 .img-cards {
     display: flex;
     justify-content: center;
+    margin-top: 3rem;
+ 
   
 
 
@@ -377,6 +373,7 @@ input:focus {
     align-items: center;
     flex-wrap: wrap;
     
+    
 
 }
  
@@ -384,8 +381,8 @@ input:focus {
     background-color: #ffffff;
     border: 0.05rem solid #025E73;
     border-radius: 1rem;
-    padding: 2rem;
-    margin: 5rem 2rem;
+    padding:  2rem;
+    margin: 8rem 2rem;
     display: flex;
     justify-content: center;
     max-width: 30rem;
@@ -462,14 +459,30 @@ input:focus {
 
 }
 
-/*Área Contato*/
+/*ÁREA CONTATO*/
 
 .main-contato {
 
     background-color: #025E73;
     height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
+.main-contato .box-contato {
+    padding: 4rem;
+    font-size: 1.4rem;
+    color: #F0EDE8;
+    
+}
+
+.box-contato li {
+    list-style-type: none;
+    padding-top: 1rem;
+    
+}
 
 ::-webkit-scrollbar {
     width: 0.8rem;
@@ -485,10 +498,27 @@ input:focus {
 
 }
 
-/*Rodape*/
+/*RODAPE*/
 
-footer {
 
-  
-     
+
+.box-footer{
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+.logos-contatos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    
+    
+}
+
+.logos-contatos img {
+    height: 2rem;
+    padding-right: 1.5rem;
+    cursor: pointer;
 }
