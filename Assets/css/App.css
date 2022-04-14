@@ -151,10 +151,7 @@ p {
  width: 100rem;
 
 }
-.main-voos img{
-    width: 90rem;
-    
-}
+
 
 
 .img-selo {
@@ -359,12 +356,20 @@ input:focus {
 
 }
 
-/*Main*/
+/*SEÇÃO DE OFERSTAS*/
+
+.img-cards {
+    display: flex;
+    justify-content: center;
+  
+
+
+}
 
 .main-ofertas {
     max-width: 110rem;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 0 1rem;
     background-color: #F0EDE8;
     border-radius: 2rem;
     display: flex;
@@ -467,7 +472,7 @@ input:focus {
 
 
 ::-webkit-scrollbar {
-    width: 1rem;
+    width: 0.8rem;
 
 
 }
