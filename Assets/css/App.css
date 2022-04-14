@@ -481,6 +481,7 @@ input:focus {
 .box-contato li {
     list-style-type: none;
     padding-top: 1rem;
+    cursor: pointer;
     
 }
 
@@ -506,7 +507,7 @@ input:focus {
     height: 6rem;
     display: flex;
     justify-content: center;
-    padding-bottom: 1rem;
+    padding: 1rem;
 }
 
 .logos-contatos {
